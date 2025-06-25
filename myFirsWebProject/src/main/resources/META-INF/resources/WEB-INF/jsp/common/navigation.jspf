@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-md bg-black mb-3 p-1">
+<a class="navbar-brand text-white d-flex align-items-center" href="https://courses.in28minutes.com" style="gap: 5px;">
+    <img alt="Logo" src="${pageContext.request.contextPath}/images/logo.png" style="height: 40px; width: auto;">
+    SM-ToDo
+</a>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link text-white" href="/">Home</a></li>
+					<li class="nav-item"><a class="nav-link text-white" href="/todo-list">Todos</a></li>
+				</ul>
+			</div>
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link text-white" href="/logout">Logout</a></li>
+			</ul>	
+</nav>
